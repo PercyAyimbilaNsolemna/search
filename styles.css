@@ -1,0 +1,46 @@
+body {
+    font-family: arial, sans-serif;
+    color: #202124;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+}
+
+ul {
+    margin-right: 0;
+    padding-left: 0;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.small:hover{
+    text-decoration: underline;
+}
+
+.sign_in:hover{
+    background-color: #0d55b4;
+}
+
+.sign_in {
+    background-color: #1a73e8;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: 1px solid transparent;
+}
