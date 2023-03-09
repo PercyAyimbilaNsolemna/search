@@ -61,37 +61,11 @@ input[type="text"] {
     display: inline;
 }
 
-.G {
-    font-size: 100px;
-    color: #1a73e8;
-}
 
-.first_o {
-    font-size: 70px;
-    color: rgba(255, 0, 0, 0.801);
-    font-weight: bold;
-}
-
-.o {
-    font-size: 70px;
-    font-weight: bold;
-    color: rgb(255, 196, 0)
-}
-
-.g {
-    font-size: 70px;
-    font-weight: bold;
-    color: #1a73e8;
-}
-
-.l {
-    font-size: 70px;
-    font-weight: bold;
-    color: rgba(0, 128, 0, 0.966);
-}
-
-.e {
-    font-size: 70px;
-    font-weight: bold;
-    color: rgba(255, 0, 0, 0.801);
+img {
+    max-width: 50%;
+    height: 30%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
 }
