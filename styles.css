@@ -51,25 +51,31 @@ ul {
     /*background-color: blue;*/
     position: absolute;
     top: 8%;
-    left: 20%;
+    left: 25%;
+    width: 50%;
+    margin-top: 8%;
+    padding: 10px;
 }
 
 input[type="text"] {
     /*max-width: 0%;*/
-    min-width: 50%;
+    min-width: 70%;
     display: block;
-    border-radius: 10px;
+    border-radius: 25px;
     height: 20px;
-    padding: 10px;
+    padding: 12px;
     font-family: arial, sans-serif;
     font-size: 20px;
     border: 1px solid rgba(128, 128, 128, 0.705);
-    /*I will crop the goggle logo and apply this stly*/
-    /*margin-top: -100px;*/
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px; 
 }
 
-/*I have to change the borderf color and details when the input element with type test is selected*/
+input[type="text"]:hover {
+    border: 1px solid rgba(128, 128, 128, 0.932);
+}
+
+/*I have to change the border color and details when the input element with type test is selected*/
 
 .languages > p {
     display: inline;
@@ -78,26 +84,30 @@ input[type="text"] {
 
 
 img {
-    max-width: 50%;
+    max-width: 40%;
     height: 30%;
-    /*background-color: blue;*/
+    background-color: blue;
     padding: 0;
-    margin: 0;
-    clip: rect(20px, 20px)
+    margin-left: 140px;
+    margin-bottom: 50px;
 }
 
 input[type="submit"], button {
-    width: 13%;
+    width: 25%;
     padding: 5px;
     margin: 10px;
     font-size: 15px;
     height: 40px;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+button {
+    width: 25%;
 }
 
 input[type="submit"] {
-    margin-left: 5%;
+    margin-left: 13%;
     margin-right: 8%;
 }
 
