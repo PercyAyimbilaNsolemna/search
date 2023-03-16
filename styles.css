@@ -79,7 +79,7 @@ input[type="text"]:hover {
 .Google {
     position: absolute;
     top: 0;
-    left: 30%;
+    left: 32%;
 }
 
 .query {
@@ -145,3 +145,77 @@ button:hover{
 
 /*Media query for responsive design*/
 
+@media (max-width: 880px) {
+    .Google {
+        left: 30%;
+    }
+
+    .query {
+        left: 18%;
+    }
+}
+
+@media (max-width: 150px){
+    .Google{
+        left: 20%;
+    }
+
+    .query {
+        left: 20%;
+    }
+}
+
+@media (max-width: 750px){
+    .small {
+        font-size: 1em;
+    }
+
+    .sign_in {
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .Google {
+        left: 15%;
+    }
+
+    .query {
+        left: 8%;
+    }
+
+    input[type=text]{
+        width: 490px;
+    }
+
+    .languages {
+        left: 25%;
+    }
+}
+
+@media (max-width: 580px){
+    input[type=text]{
+        width: 430px;
+    }
+
+    button{
+        width: 30%;
+        padding: 2px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .query {
+        left: 5%;
+    }
+
+    input[type=submit]{
+        margin-left: 10%;
+    }
+
+    .languages {
+        left: 17%;
+    }
+}
