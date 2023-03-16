@@ -109,7 +109,8 @@ input[type="submit"], button {
     height: 40px;
     margin-top: 2%;
     margin-bottom: 5%;
-    border: solid 0.2px rgba(128, 128, 128, 0.705) ;
+    border: 0.2px solid rgba(231, 224, 224, 0.493) ;
+    background-color: rgba(231, 224, 224, 0.116);
 }
 
 button {
@@ -126,5 +127,21 @@ div > p > a:hover {
     text-decoration: underline;
 }
 
+input[type=text]:focus{
+    border: 1px solid hsl(0, 32%, 92%);
+    outline: none;
+}
 
+input[type=submit]:hover{
+    border: 1px solid hsla(0, 10%, 81%, 0.637);
+    border-radius: 6px;
+    background-color: rgba(231, 224, 224, 0.404);
+}
+button:hover{
+    border: 1px solid hsla(0, 10%, 81%, 0.637);
+    border-radius: 6px;
+    background-color: rgba(231, 224, 224, 0.404);
+}
+
+/*Media query for responsive design*/
 
