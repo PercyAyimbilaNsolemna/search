@@ -122,7 +122,10 @@ input[type="submit"] {
     margin-left: 20%;
 }
 
-div > p > a:hover {
+.languages > p > a {
+    color: rgba(44, 44, 206, 0.863);
+}
+.languages > p > a:hover {
     color: blue;
     text-decoration: underline;
 }
