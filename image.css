@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    margin: 20px;
+}
+
+.home {
+    padding: 5px;
+    font-size: 15px;
+    color: #202124;
+}
+
+.sign-in {
+    padding: 10px 15px;
+    background-color: #1a73e8;
+    color: #fff;
+    border-style: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+a > span {
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    background-color: #0d55b4;;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.Google {
+    position: absolute;
+    left: 0; 
+    left: 35%;
+}
+
+img {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 30%;
+    top: 0; 
+}
+
+.Google > span {
+    margin-left: -78px;
+    padding: 0;
+    color: #4285f4;
+    font-size: 1.3em;
+}
+
+.query {
+    position: absolute;
+    top: 150px;
+    left: 28%;
+}
+
+input[type=text] {
+    width: 520px;
+    padding: 12px;
+    height: 20px;
+    font-size: 1.1em;
+    border: 1px solid #e4e8ecf3;
+    border-radius: 25px;
+    outline: none;
+}
+
+input[type=text]:hover{
+    border: 1px solid #cec4c1f3;
+}

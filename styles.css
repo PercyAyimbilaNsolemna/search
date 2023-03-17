@@ -41,6 +41,7 @@ ul {
     padding: 10px 20px;
     border-style: 1px solid transparent;
     border-radius: 5px;
+    font-weight: bolder;
 }
 
 .container {
@@ -53,7 +54,7 @@ ul {
     box-sizing: border-box;
 }
 
-input[type="text"] {
+input[type=text] {
     width: 500px;
     display: block;
     border-radius: 25px;
@@ -109,8 +110,8 @@ input[type="submit"], button {
     height: 40px;
     margin-top: 2%;
     margin-bottom: 5%;
-    border: 0.2px solid rgba(231, 224, 224, 0.493) ;
-    background-color: rgba(231, 224, 224, 0.116);
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 button {
@@ -133,6 +134,7 @@ input[type="submit"] {
 input[type=text]:focus{
     border: 1px solid hsl(0, 32%, 92%);
     outline: none;
+    font-size: 1em;
 }
 
 input[type=submit]:hover{
